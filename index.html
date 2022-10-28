@@ -17,7 +17,7 @@
          <h1 class="text_center">Lista email Random</h1>
 
         <div class="row">
-            <ul>
+            <ul v-if="arrayNum.length === 10">
                 <li v-for="(item) in arrayNum">{{item}}</li>
             </ul>
         </div>
