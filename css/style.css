@@ -10,3 +10,13 @@
     width: 90%;
     height: 100vh;
 }
+
+.row{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_center{
+    text-align: center;
+}
